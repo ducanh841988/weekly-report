@@ -51,3 +51,9 @@ In seq2seq model, the decoder must use only the final hidden state of the RNN to
 #### 5. Questions:
 1. What is the new idea in using attention with seq2seq in our group's approach? And what problem it will solve?
 2. What kind of result we need to achieve in order to consider the research is successful?
+
+#### Answers:
+1. Ideal 1: The global attention take all sequence as input. We can give a efficient scope for attention.
+   Ideal 2: We can integrate language model to decoder to make better recognition system.
+2. Achive the state of art in the field scene text recognition on the standard database.
+  
